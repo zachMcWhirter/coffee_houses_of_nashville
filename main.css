@@ -1,0 +1,33 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.shop {
+    border: 1px dashed black;
+    height: 25px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 3px;
+}
+
+
+ /* I need to get the last two blocks in the cluster to spread out and leave space around the sides and in the middle    ACCOMPLISHED! using "margin: auto"   */
+
+.list .shop {
+    width: 30%;
+}
+
+.wrapper {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* I need to get the .pageHeader element to be centered over the cluster of blocks.    ACCOMPLISHED! using  "text-align: center"  */
+
+.pageHeader {
+    display: inline-block;
+
+    
+}
